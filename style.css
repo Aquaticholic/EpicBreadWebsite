@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+	font-family: 'Solway', serif;
+}
+h2, h3, h4 {
+	font-family: 'Solway', serif;
+	text-align: center;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    text-align:left;
+	display: inline-block;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+}
+
+img {
+	width: 100%;
+}
+
+
+.nobotmargin {
+	margin-bottom: 0;
+}
+
+.notopmargin {
+	margin-top: 0;
+}
+
+.header {
+  background-color: #F1F1F1;
+  background-image: url("images/Lots-of-bread.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  text-align: center;
+}
+.header h1 {
+  color: #0F0F0F;
+  padding:150px;
+  font-size: 70px;
+  font-weight: bold;
+}
+.header.small {
+  background-color: #F1F1F1;
+  background-image: url("images/Lots-of-bread.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  text-align: center;
+}
+.header.small h1 {
+  color: #0F0F0F;
+  padding:30px;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333333aa;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #3a3a3388;
+  color: #ffffff;
+} 
+
+.content {
+	width: 80%;
+}
+
+.column {
+  background-color: #ddd;
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 30%;
+  text-align: center;
+}
+
+.column.main {
+  width: 70%;
+}
+
+.row {
+	margin: 0 auto;
+	width: 80%;
+}
+.halfwidth {
+	width: 49.5%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column, .row {
+    width: 100%;
+  }
+}
